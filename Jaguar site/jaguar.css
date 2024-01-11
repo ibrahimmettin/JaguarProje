@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kanit&family=Noto+Sans+Pahawh+Hmong&family=Poppins:wght@300&display=swap');
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  width: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  justify-self: right;
+  height: 100%;
+  text-decoration: none;
+  color:white;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.material-symbols-outlined:hover{
+    color: gray;
+}
+body{
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    flex-direction: column;
+    
+}
+header{
+    display: flex;
+    flex: 0 0 10%;
+    align-items: center;
+    background-color: #3c3c3b;
+    color: white;
+}
+.orta{
+    display: flex;
+    flex:0 0 30%;
+    height: 100%;
+}
+.logo{
+    font-family: 'Noto', sans-serif;
+    margin-right: 30px;
+    height: 100%;
+    text-align: center;
+    letter-spacing: 5px;
+    flex: 0 0 10%;
+}
+.baslikSec{
+    width: 25%;
+    text-align: center;
+    flex: 0 0 25%;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
+.baslikSec:hover{
+    color: gray;
+}
+.sag{
+    flex:0 0 57%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+@keyframes background-animaniton{
+    0%{background-image:url("/images/1600.webp");}
+    25%{background-image: url("/images/1600\ \(1\).webp");}
+    50%{background-image: url("/images/1600\ \(2\).webp");}
+    75%{background-image: url("/images/1600\ \(3\).webp");}
+    100%{background-image: url("/images/1600\ \(4\).webp");}
+}
+main{display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    height: 80%;
+    background-image:url("/images/1600.webp");
+    font-size: 1.2rem;
+    background-size: cover;
+	animation:background-animaniton 5s infinite alternate;
+	-webkit-animation:background-animaniton 5s infinite alternate;
+	-moz-animation:background-animaniton 5s infinite alternate;
+    color: white;
+    flex-direction: column;
+  
+    
+}
+.mainP{
+    flex: 1 1 40%;
+    max-width: 45%;
+    margin-left: 10%;
+   
+}
+.mainH{
+    margin-left: 10%;
+
+}
+footer{
+    width: 100%;
+    flex: 0 0 20%;
+    color: white;
+   display: flex;
+   flex-wrap: wrap;
+   background-color: #3c3c3b;
+ 
+    
+}
+li{
+    list-style: none;
+    color:white;
+
+
+}
+a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+   
+}
+
+.SosyalMedya{
+margin-left: 25%;
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+ 
+   
+}
+.SosyalMedya > a{
+  display: flex;
+ text-align: center;
+ margin-top: -5%;
+
+    
+    
+}
+.SosyalMedya > a:hover{
+   color: black;
+}
+
+.SosyalMedya > a > img{
+    position: relative;
+top: 40%;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    align-items: center;
+    margin-top: 2%;
+ 
+}
+
+main>a{
+    display: flex;
+    flex: 1 1 40%;
+    width: 200px;
+    height: 30px;
+    margin-left: 10%;
+    margin-bottom: 30%;
+    background-color:#010f2c;
+    text-align: center;
+    border-radius: 20px;
+    font-size: large;
+    
+}
+main>a:hover{
+    font-size: larger;
+    color: #92cee4;
+    cursor: pointer;
+
+}
+li:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+
